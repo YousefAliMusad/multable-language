@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    background-color: #333;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    height: 300px;
+    position: relative;
+}
+.container .head{
+    width: 100px;
+    height: 50px;
+    background-color: #a7c800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+.container .cont {
+    position: absolute;
+    top: 100px;
+}
+.container .lang {
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    background-color: #485600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px black solid;
+    display: none;
+}
+.container .lang.active {
+    display: block;
+}
+.ts {
+    position: absolute;
+    top: 0;
+    background-color: white;
+    padding: 30px;
+}

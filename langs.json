@@ -1,0 +1,20 @@
+[
+    {
+        "lang":"english",
+        "verb1":"play",
+        "verb2":"eat",
+        "verb3":"sleep"
+    },
+    {
+        "lang":"arabic",
+        "verb1":"يلعب",
+        "verb2":"ياكل",
+        "verb3":"ينام"
+    },
+    {
+        "lang":"Indian",
+        "verb1":"प्ले",
+        "verb2":"खा",
+        "verb3":"नींद"
+    }
+]
